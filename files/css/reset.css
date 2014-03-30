@@ -1,0 +1,119 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, section, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, article, summary, time, mark, audio, video {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+}
+section, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, article {
+	display:block;
+}
+body {
+	line-height:1;
+	font-family:sans-serif;
+ -webkit-font-smoothing: antialiased;
+}
+@media screen and (min-width: 360px) {
+  * { -webkit-text-size-adjust: none; }
+}
+* p {
+	margin:0em 0 0.5em;
+}
+* p:first-child {
+	margin-top:0;
+}
+* p:last-child {
+	margin-bottom:0;
+}
+h3 {
+	font-size:120%;
+	margin-bottom:0.5em;
+}
+h4 {
+	font-size:87.5%;
+	margin-bottom:0.5em !important;
+}
+blockquote, q {
+	quotes:none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content:'';
+	content:none;
+}
+a {
+	margin:0;
+	padding:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+	color:#008779;
+}
+a:hover {
+	color:#f5a100 !important;
+}
+article {
+	clear:both;
+	margin-bottom:40px;
+}
+/* change colours to suit your needs */
+ins {
+	background-color:#ff9;
+	color:#000;
+	text-decoration:none;
+}
+/* change colours to suit your needs */
+mark {
+	background-color:#ff9;
+	color:#000;
+	font-style:italic;
+	font-weight:bold;
+}
+del {
+	text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+	border-bottom:1px dotted;
+	cursor:help;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+	display:block;
+	height:1px;
+	border:0;
+	border-top:1px solid #cccccc;
+	margin:1em 0;
+	padding:0;
+}
+input, select {
+	vertical-align:middle;
+}
+ul {
+	list-style:none;
+}
+table {
+	font-size:81.3%;
+}
+table th {
+	white-space:nowrap;
+	font-weight:bold;
+	text-align:left;
+	padding:5px 5px 5px 0;
+}
+table td {
+	padding:5px 0 5px 5px;
+	word-break:break-all;
+}
